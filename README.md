@@ -1,11 +1,16 @@
 # Salty-Cloud-Frogs-Project-1
 
+## Deployment Link(My fork):
+https://darkorin.github.io/Salty-Cloud-Frogs-Project-1/
+
 ## Team Members:
 Tyler, David, and Chris
 
 ## Project Roles:
 Product Owner: David
+
 Repo Owner: Tyler
+
 Scrum Master: Chris
 
 ## Minimum Viable Product:
