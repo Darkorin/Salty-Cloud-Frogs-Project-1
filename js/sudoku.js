@@ -2,7 +2,7 @@ let currentSelect;
 let sdkBoardState;
 let sdkTimer;
 let sdkTime;
-let diff;
+let diff = 1;
 let feedback = $("<h3>")
     .attr("class", "col s12")
     
@@ -89,6 +89,9 @@ const sudokuClickHandler = function (target) {
     if ($(target).attr("id") === "check-button") {
         checkSolution();
         return;
+    }
+    if($(target).attr("id") === "clearButton") {
+        clearHandler();
     }
     if ($(target).hasClass("starter")) {
         currentSelect = -1;
